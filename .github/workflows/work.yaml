@@ -6,7 +6,7 @@ on:
       - master
   workflow_dispatch: # 手动触发
   schedule:
-    - cron: 58 11 * * *
+    - cron: 5 12 * * *
   watch:
     types: started
 jobs:
